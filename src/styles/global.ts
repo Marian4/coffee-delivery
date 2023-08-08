@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         background-color: ${(props) => props.theme.background};
+        padding-top: 6rem;
     }
 
     body, input, textarea, button {
