@@ -1,3 +1,9 @@
+import { Presentation } from './componentes/Presentation/Presentation'
+
 export function Home() {
-  return <h1>Home page</h1>
+  return (
+    <>
+      <Presentation />
+    </>
+  )
 }

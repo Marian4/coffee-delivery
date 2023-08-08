@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const HeaderContainer = styled.header`
   width: 100%;
   height: 6.5rem;
-  background-color: transparent;
+  background-color: ${(props) => props.theme.background};
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -16,6 +16,7 @@ export const HeaderContainer = styled.header`
   nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 0.75rem;
 
     a {
