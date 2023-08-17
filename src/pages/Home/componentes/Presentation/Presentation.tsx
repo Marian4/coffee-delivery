@@ -20,17 +20,17 @@ export function Presentation() {
             </span>
             <span id="text">Compra simples e segura</span>
           </Advantage>
-          <Advantage bgcolor="yellow">
-            <span id="icon">
-              <Timer size={16} weight="fill" />
-            </span>
-            <span id="text">Entrega rápida e rastreada</span>
-          </Advantage>
           <Advantage bgcolor="base-text">
             <span id="icon">
               <Package size={16} weight="fill" />
             </span>
             <span id="text">Embalagem mantém o café intacto</span>
+          </Advantage>
+          <Advantage bgcolor="yellow">
+            <span id="icon">
+              <Timer size={16} weight="fill" />
+            </span>
+            <span id="text">Entrega rápida e rastreada</span>
           </Advantage>
           <Advantage bgcolor="purple">
             <span id="icon">

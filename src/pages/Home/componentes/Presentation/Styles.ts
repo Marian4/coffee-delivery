@@ -17,6 +17,7 @@ export const PresentationContainer = styled.div`
 
   #presentation {
     width: 36.75rem;
+    max-width: 40rem;
     display: flex;
     flex-direction: column;
     gap: 3rem;
