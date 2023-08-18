@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const CoffeeCardContainer = styled.div`
   background: ${(props) => props.theme['base-card']};
-  width: 16rem;
+  /* width: 16rem; */
   height: 19.375rem;
 
   border-top-left-radius: 6px;

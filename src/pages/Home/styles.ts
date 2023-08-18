@@ -10,15 +10,19 @@ export const HomeContainer = styled.div`
     font-size: 2rem;
     font-weight: bold;
     line-height: 130%;
-    width: 70rem;
+    width: 100%;
     margin: 4rem auto;
+  }
+
+  > * {
+    padding-left: calc((100% - 70rem) / 2);
+    padding-right: calc((100% - 70rem) / 2);
   }
 `
 export const Catalog = styled.main`
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 16rem);
-  justify-content: center;
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   padding-bottom: 8.5rem;

@@ -12,8 +12,7 @@ export const PresentationContainer = styled.div`
   background-size: cover;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 4rem;
+  justify-content: space-between;
 
   #presentation {
     width: 36.75rem;
@@ -43,7 +42,7 @@ export const PresentationContainer = styled.div`
 export const AdvantagesContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 2.5rem;
+  place-items: space-between;
   grid-row-gap: 1.25rem;
 `
 

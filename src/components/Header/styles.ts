@@ -12,8 +12,8 @@ export const HeaderContainer = styled.header`
   top: 0;
   left: 0;
   z-index: 1;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: calc((100% - 70rem) / 2);
+  padding-right: calc((100% - 70rem) / 2);
 
   nav {
     display: flex;
