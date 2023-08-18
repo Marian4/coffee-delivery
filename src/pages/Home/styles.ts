@@ -8,6 +8,7 @@ export const HomeContainer = styled.div`
     color: ${(props) => props.theme['base-subtitle']};
     font-family: 'Baloo 2', 'Roboto', sans-serif;
     font-size: 2rem;
+    font-weight: bold;
     line-height: 130%;
     width: 70rem;
     margin: 4rem auto;

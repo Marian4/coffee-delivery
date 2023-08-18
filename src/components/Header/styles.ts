@@ -6,12 +6,14 @@ export const HeaderContainer = styled.header`
   background-color: ${(props) => props.theme.background};
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
+  padding-left: 10rem;
+  padding-right: 10rem;
 
   nav {
     display: flex;
@@ -39,7 +41,6 @@ export const HeaderContainer = styled.header`
       background-color: ${(props) => props.theme['yellow-light']};
       color: ${(props) => props.theme['yellow-dark']};
       padding: 0.5rem;
-      gap: 0.25rem;
       border-radius: 6px;
     }
   }
