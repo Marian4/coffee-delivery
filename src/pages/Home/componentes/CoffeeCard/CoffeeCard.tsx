@@ -1,7 +1,8 @@
-import { Minus, Plus, ShoppingCart } from 'phosphor-react'
+import { ShoppingCart } from 'phosphor-react'
 import { Coffee } from '../../../../data/coffees'
 import { priceFormatter } from '../../../../utils/formatter'
-import { CoffeeCardContainer, Tag, ActionsArea, Counter } from './styles'
+import { CoffeeCardContainer, Tag, ActionsArea } from './styles'
+import { Counter } from '../../../../components/Counter'
 
 interface CoffeeCardProps {
   coffee: Coffee
@@ -21,15 +22,7 @@ export function CoffeeCard({ coffee }: CoffeeCardProps) {
       <ActionsArea>
         <span id="price">{priceFormatter.format(coffee.price)}</span>
         <div id="actions">
-          <Counter>
-            <button>
-              <Minus size={14} />
-            </button>
-            <span>1</span>
-            <button>
-              <Plus size={14} />
-            </button>
-          </Counter>
+          <Counter />
           <div id="cartIcon">
             <ShoppingCart size={22} weight="fill" />
           </div>
